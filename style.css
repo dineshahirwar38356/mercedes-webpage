@@ -1,0 +1,158 @@
+#container{
+    height: auto;
+    width: 95%;
+    background-color:white;
+    margin: 40px;
+}
+#header{
+    height: 200px;
+    width: 100%;
+        background-color: white;
+
+    float: left;
+}
+#logo{
+    height: 180px;
+    width: 260px;
+    margin-top: 10px;
+    float: left;
+}
+#heading{
+    width:550px;
+    font-size: 50px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 101px;
+
+}
+#address{
+    height: 100px;
+    width: 230px;
+    float: left;
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 40px;
+}
+#nav{
+    height: 250px;
+    width: 100%;
+    background-color: dimgray;
+}
+#image{
+    height: 600px;
+    width: 100%;
+}
+#nav ul{
+    list-style: none;
+    padding-top: 10px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: 80px;
+    text-decoration: none;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color:gray;
+    margin-top: -2px;
+    width: 150px;
+    margin-left: 270px;
+    border-radius: 0px 20px 20px 20px;
+} 
+#nav ul li ul li{
+    margin-left: -45px;
+    line-height: 35px;
+}
+#nav ul li a:hover{
+    color: pink;
+}
+#content{
+    height: 230px;
+}
+#content p{
+    text-align: justify;
+    font-size: 25px;
+    line-height:32px;
+}
+#box{
+    height: 500px;
+    background-color: lightgray;
+    padding: 60px;
+}
+#box1{
+    height: 500px;
+    width: 280px;
+    background-color: whitesmoke;
+    float: left;
+    margin: 22px;
+}
+#boximg{
+    height: 300px;
+    width: 280px;
+}
+#boxcontent{
+    margin: 20px;
+    text-align: justify;
+}
+#box button{
+    margin-left:  40px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20%;
+    background-color: brown;
+    color: white;
+}
+#about{
+    height: 500px;
+    background-color: lightgrey;
+    margin-top: 10px;
+    
+}
+#aboutimg{
+    height:300px;
+    width: 300px;
+    margin: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+#aboutcontent{
+    height: 400px;
+    width: 900px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    line-height: 23px;
+    text-align: justify;
+    font-size: 20px;
+}
+#contact{
+    height: 600px;
+    padding: 10px;
+    background-color: gray;
+ }
+ #contactbox ul{
+    font-size: 25px;
+    line-height: 40px;
+ }
+#contactbox{
+    height: 400px;
+    width: 280px;
+    margin: 15px;
+    padding: 15px;
+    margin-top: 60px;
+    background-color: lightgray;
+    float: left;
+}
+#footer{
+    padding: 10px;
+    font-size: 18px;
+}
